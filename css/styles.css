@@ -1,0 +1,48 @@
+body {
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+	height: 400px;
+	padding: 2rem;
+	background-color: #eff2f7;
+	background: url(../img/plant-small.jpg) center bottom / cover no-repeat;
+	
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+
+
+@media only screen and (min-width: 850px) {
+	header {
+		background: url(../img/plant-medium.jpg) center bottom / cover no-repeat;
+	}
+	h1 {
+		font-size: calc(2.5rem + 2vw);
+		color: #fff;
+		text-shadow: 6px 2px 7px #30150D;
+	}
+	
+}
+
+
+@media only screen and (min-width: 1000px) {
+	header {
+		height: 500px;	
+	}
+}
+
+
+@media only screen and (min-width: 1500px) {
+	header{ 
+		background: url(../img/plant-large.jpg) center bottom / cover no-repeat;
+		height: 700px;
+
+	}
+}
